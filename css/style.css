@@ -1,0 +1,191 @@
+
+#logo{
+    height:15vh;
+    width:21vw;
+    display: block;
+    margin: auto;
+}
+nav{
+    background-color: #f4fcfc;
+    padding-top: 2.8vh;
+    padding-bottom: 1.1vh;
+    border:2px solid #05729a;
+    border-radius: 5px;
+    
+}
+#navbar{
+    list-style-type: none;
+    width: 100%;
+    padding-right:1.5vh;
+    padding-left: 2.0vh;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 7vw;
+    padding-left: 8.5vw;
+    padding-top: 3.3vh;
+    padding-bottom: 3.2vh;
+    /* border-right: 2px solid #05729a; */
+}
+
+#navbar li:hover{
+    color:white;
+    background-color:#05729a;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+
+#navbar a:visited{
+    color:black;
+}
+
+.hero-image {
+    background: url(../images/banner-1-1024x292.jpg) no-repeat center; 
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
+.hero-image-instructor{
+    background: url(../images/trainer.png) no-repeat center; 
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: black;
+    
+  }
+
+.hero-text-instructor {
+    text-align:justify;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: black;
+    
+  }
+  .hero-text-course {
+    text-align:justify;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: black;
+    
+  }
+
+  .hero-text h1{
+    font-family: 'Great Vibes', cursive;
+  }
+
+  #jointeam{
+    text-align: center;
+    margin: 7vh;
+    padding: 5vh;
+  }
+
+  #centercol{
+    text-align: center;
+    margin:5vh;
+    padding: 4vh;;
+    border:2px solid #05729a;
+    border-radius: 5px;
+  }
+  #steps{
+    margin-top: 5vh;
+  }
+
+  #apply{
+    text-align: center;
+    margin-top:10vh;
+  }
+
+  #about{
+    text-align: center;
+    margin-top:10vh;
+  }
+
+  #trainerForm{
+    border:2px solid #05729a;
+    background-color: #f4fcfc;
+    text-align: left;
+    padding: 2em;
+    margin-left:50%;
+  }
+  button{
+    background-color: #f4fcfc;
+    border: 2px solid #05729a;
+    padding: 2%;
+    border-radius: 10px;
+    width: 25%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    cursor: pointer;
+  }
+
+  #btn{
+    border-radius: 10px;
+  }
+
+  #aboutDetails{
+    border:2px solid #05729a;
+    background-color: #f4fcfc;
+    text-align: center;
+    padding: 2em;
+    margin:1em;
+  }
+  #quote{
+    text-align: center;
+    margin-top:7vh;
+  }
+  #quoteDetails{
+    border:2px solid #05729a;
+    background-color: #f4fcfc;
+    text-align: center;
+    padding: 0.5em;
+    margin:1em;
+  }
+  footer{
+    clear: both;
+    padding-top:1%;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+  .newsletter{
+    padding: 2em;
+    background-color: white;
+    text-align: center;
+  }
+
+  .skills{
+    padding:2em;
+    text-align: center;
+  }
+
+  .skills table{
+    border:2px solid #05729a;
+    background-color: #f4fcfc;
+    text-align: center;
+    width: 100%;
+ }
+
+ .skills table tr {
+  padding: 1em;
+ }
+
+  .pic{
+    float:left;
+    width:30%;
+  }
